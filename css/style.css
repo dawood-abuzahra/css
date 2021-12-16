@@ -107,7 +107,7 @@ background-color: dodgerblue;
 
 /* grid */
 
-/* body{
+body{
     margin: 10px;
 
 }
@@ -247,7 +247,7 @@ background-color: dodgerblue;
     background-color: dodgerblue;
 }
     
-} */
+}
 
 
 
@@ -426,7 +426,6 @@ button{
 
 
 /* body{
-
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -446,7 +445,8 @@ height: 100vh;
 } */
 
 
-.container{
+
+/* .container{
     gap: 20px;
     display: grid;  
     width: 1000px;
@@ -495,4 +495,4 @@ height: 100vh;
     padding: 20px;
 
 
-}
+} */
