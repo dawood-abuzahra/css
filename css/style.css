@@ -107,7 +107,7 @@ background-color: dodgerblue;
 
 /* grid */
 
-body{
+/* body{
     margin: 10px;
 
 }
@@ -247,7 +247,7 @@ body{
     background-color: dodgerblue;
 }
     
-}
+} */
 
 
 
@@ -426,6 +426,7 @@ button{
 
 
 /* body{
+
     margin: 10px;
     display: flex;
     justify-content: center;
@@ -443,3 +444,55 @@ height: 100vh;
     transform: translate(40px, 50px);
 
 } */
+
+
+.container{
+    gap: 20px;
+    display: grid;  
+    width: 1000px;
+   margin: 30px auto;
+   font-family: sans-serif;
+   grid-template-rows: 100px 200px 400px 100px;
+   grid-template-columns: repeat(3,1fr) 200px;
+   
+}
+
+
+
+
+.small--box{
+    background-color: orangered;
+    padding: 20px;
+}
+
+.header{
+    background-color: orangered;
+    grid-column: 1/-1;
+    padding: 20px;
+
+}
+
+.footer{
+    background-color: orangered;
+    grid-column: 5/-5;
+    padding: 20px;
+
+}
+
+
+.main{
+    background-color: orangered;
+    grid-column: 1/4;
+    padding: 20px;
+
+
+}
+
+.slidbar{
+    background-color: orangered;
+    grid-column: 4/5;
+    grid-row: 2/4;
+    padding: 20px;
+
+
+}
